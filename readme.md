@@ -52,9 +52,9 @@
 Si deseas contribuir a este proyecto, por favor:
 
 1. Haz un fork del repositorio
-2. Crea una nueva rama (`git checkout -b feature/NuevaCaracteristica`)
-3. Haz commit de tus cambios (`git commit -m 'Añadir alguna NuevaCaracteristica'`)
-4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
+2. Crea una nueva rama (`git checkout -b "{ID_Userstory}" - "{Description_Userstory}"`)
+3. Haz commit de tus cambios (`git commit -m '{branch_name} - Descripcion de los cambios'`)
+4. Push a la rama (`git push`)
 5. Abre un Pull Request
 
 ## Contacto
