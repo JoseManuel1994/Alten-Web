@@ -2,21 +2,21 @@ Feature: busqueda de empleo
   Background: 
 
   Scenario: Job search with position term "Programador"
-    Given the user is on "https://www.alten.es/#empleo" ... passed in 4.545s
+    Given the user is on "https://www.alten.es/#empleo" ... passed in 22.189s
     And the user accepts the terms and conditions if they do not exist ... passed in 3.285s
-    Given the user writes "Programador" in the position or search term field ... passed in 0.329s
-    Then the table should display job offers that match the search term:"Programador" ... passed in 0.026s
+    Given the user writes "Programador" in the position or search term field ... passed in 0.295s
+    Then the table should display job offers that match the search term:"Programador" ... passed in 0.025s
 
   Scenario: Job search with city "madrid"
-    Given the user is on "https://www.alten.es/#empleo" ... passed in 0.348s
-    And the user accepts the terms and conditions if they do not exist ... passed in 4.018s
-    Given the user writes "madrid" in the city or postal code field ... passed in 1.215s
-    Then the table should display job offers that match the search city:"madrid" ... passed in 0.038s
+    Given the user is on "https://www.alten.es/#empleo" ... passed in 0.612s
+    And the user accepts the terms and conditions if they do not exist ... passed in 4.019s
+    Given the user writes "madrid" in the city or postal code field ... passed in 1.220s
+    Then the table should display job offers that match the search city:"madrid" ... passed in 0.016s
 
   Scenario: Job search with position term "PHP" and city "madrid"
-    Given the user is on "https://www.alten.es/#empleo" ... passed in 0.348s
+    Given the user is on "https://www.alten.es/#empleo" ... passed in 0.594s
     And the user accepts the terms and conditions if they do not exist ... passed in 4.017s
-    Given the user writes "PHP" in the position or search term field ... passed in 0.328s
-    And the user writes "madrid" in the city or postal code field ... passed in 1.256s
-    Then the table should display job offers that match the search "PHP" and "madrid" ... passed in 0.015s
+    Given the user writes "PHP" in the position or search term field ... passed in 0.315s
+    And the user writes "madrid" in the city or postal code field ... passed in 1.204s
+    Then the table should display job offers that match the search "PHP" and "madrid" ... passed in 0.014s
 

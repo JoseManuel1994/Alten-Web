@@ -32,11 +32,11 @@ class SearchPage:
             actions.click().perform()
 
         except ElementClickInterceptedException:
-            logging.error(f'{testName} "Pass" "The user has already accepted the terms and conditions."')
+            logging.info(f'{testName} "Pass" "The user has already accepted the terms and conditions."')
             write_test_result(testName, "Pass", "The user has already accepted the terms and conditions.")
 
         except (NoSuchElementException, TimeoutException) as e:
-            logging.error(f'{testName} "Pass" "The user has already accepted the terms and conditions."')
+            logging.info(f'{testName} "Pass" "The user has already accepted the terms and conditions."')
             write_test_result(testName, "Pass", "The user has already accepted the terms and conditions.")
 
     def enter_search_term(self, term):
