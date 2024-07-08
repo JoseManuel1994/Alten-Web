@@ -61,4 +61,4 @@ Si deseas contribuir a este proyecto, por favor:
 
 Jose Manuel Barroso de la Rosa - barroso.josemanuel94@gmail.com
 
-URL del proyecto: [https://github.com/tu_usuario/tu_proyecto](https://github.com/tu_usuario/tu_proyecto)
+URL del proyecto: (https://github.com/JoseManuel1994/Alten-Web/)
