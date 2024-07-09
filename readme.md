@@ -10,8 +10,7 @@
 
 1. Clona este repositorio:
 
- - git clone <URL_DEL_REPOSITORIO>
- - cd <NOMBRE_DEL_DIRECTORIO>
+ - git clone (https://github.com/JoseManuel1994/Alten-Web)
 
 2. Crea un entorno virtual (opcional, pero recomendado):
 
